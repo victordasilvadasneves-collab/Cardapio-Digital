@@ -1,0 +1,555 @@
+
+body {
+    height: 330vh;
+    background-image: linear-gradient(45deg, rgb(255, 226, 36),rgb(207, 166, 0), rgb(187, 28, 28), rgb(255, 157, 0), rgb(215, 93, 0), rgb(120, 0, 0)  );
+}
+
+.menu-C {
+    font-size: larger;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.903);
+}
+
+.a-m-C {
+      margin-right: 18px;
+    color: rgb(186, 92, 29);
+    text-decoration: none;
+    padding: 2px;
+    margin: 7px;
+}
+
+.a-m-C:hover {
+     transition: 0.48s;
+    background-color: rgb(189, 145, 42);
+    color: rgb(155, 74, 20);
+    border: 0px solid ;
+    border-radius: 8px;
+}
+
+
+main {
+
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 1000px;
+   border: 12px solid black;
+   border-radius: 18px;
+}
+
+section { 
+    margin: 0px;
+}
+
+
+    /*CARDÁPIO PÁGINA PRINCINPAL(CARDÁPIO)
+        
+            ÍNICIO
+    */
+
+
+
+        /*CATEGORIA (CARDÁPIO)
+        
+                ÍNICIO
+        */
+
+
+.categor-card {
+    background-color: rgb(98, 38, 0);
+    height: 100vh;
+
+    width: 100%;  
+    display: flex;
+
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+
+#h1-C-1{
+    background-color: rgba(80, 31, 0, 0.912);
+    color: rgb(224, 162, 6);
+
+    text-align: center;
+     width: 100%;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+
+    padding: 18px;
+    margin: 0px;
+}
+
+
+.categoria-card{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+
+    margin: 0px 0;
+    padding: 8px;
+    padding-bottom: 8px;
+
+    flex: 1 1 22%;
+}
+
+h5 {
+   color:  rgb(240, 174, 6);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 28px;
+
+   margin: 0px;
+   padding-left: 18px;
+   
+}
+ul {
+    font-size: 18px;
+
+    padding-left:  16px;
+    margin: 8px 0;
+}
+
+li {
+    color: rgb(214, 164, 27);
+}
+
+        /*CATEGORIA (CARDÁPIO)
+        
+                FINAL
+        */
+
+
+
+        /*DESTAQUE (CARDÁPIO)
+        
+                ÍNICIO
+        */
+
+#h1-C-2-C{
+    background-color: rgb(236, 236, 0);
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+    
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+
+    padding: 18px;
+    margin: 0px;
+    
+
+}
+
+.Destaque-D-C {
+
+    background-color: rgb(167, 167, 0);
+    height: 100vh;
+    width: 100%;  
+
+}
+
+.linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 50% / 50% */
+}
+
+
+
+.dest img {
+    width: 50%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dest-C {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    
+}
+
+#a-d {
+    text-decoration: none;
+    color: white;
+}
+
+.card-C {
+  position: relative;
+  width: 48%; /* 2 por linha */
+  height: 307px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-top: 5px;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+/* fundo escuro pra leitura */
+.card::after {
+  content: "";
+  position: absolute;
+  background: rgba(2, 2, 2, 0.45);
+}
+
+/* texto */
+.texto-C {
+  position: relative;
+  top: 325px;
+  bottom: 1px;
+  z-index: 1;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+
+.linha1-C {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 1;
+  
+}
+.linha2-C {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#img-comida1-C  {
+    background-image: url(../img/banner/banner-comida-caseira-C.jpeg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+#img-comida2-C  {
+    background-image: url(../img/banner/banner-sobremesa-C.jpeg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+#img-comida3-C  {
+    background-image: url(../img/banner/banner-porção-C.jpeg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+#img-comida4-C  {
+    background-image: url(../img/banner/banner-Laçamento.jprg.jpg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.titulo-topo1-C {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  z-index: 1;
+  color: rgb(175, 5, 5);
+  font-size: 34px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.370);
+  border-radius: 8px;
+}
+
+.titulo-topo2-C {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color: #0f5d67d4;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.titulo-topo3-C {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color: rgba(186, 186, 0, 0.991);
+  font-size: 34px;
+  font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.380);
+    border-radius: 8px;
+}
+
+.titulo-topo4-C {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color:  #cf7f00;
+  font-size: 34px;
+  font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.350);
+    border-radius: 8px;
+}
+
+
+
+        /*DESTAQUE (CARDÁPIO)
+        
+                FINAL
+        */
+
+
+
+
+        /*PRATOS CASEIRO (CARDÁPIO)
+        
+                ÍNICIO
+        */
+
+
+#h1-C-3 {
+   background-color: rgb(29, 18, 0);
+    color: rgb(233, 98, 2);
+
+   text-align: center;
+    
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+
+    padding: 18px;
+    margin: 0px;
+}
+
+.prato-caseiro {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;  
+}
+
+.Destaque-D-CD {
+
+    background-color: #d88c00;
+    height: 100vh;
+    width: 100%;  
+
+}
+
+.linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 50% / 50% */
+}
+
+
+
+.dest img {
+    width: 50%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dest-CD {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    
+}
+
+#a-d {
+    text-decoration: none;
+    color: white;
+}
+
+.card-CD {
+  position: relative;
+  width: 48%; /* 2 por linha */
+  height: 307px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-top: 5px;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+/* fundo escuro pra leitura */
+.card::after {
+  content: "";
+  position: absolute;
+  background: rgba(2, 2, 2, 0.45);
+}
+
+/* texto */
+.texto-CD {
+  position: relative;
+  top: 325px;
+  bottom: 1px;
+  z-index: 1;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+
+.linha1-CD {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 1;
+  
+}
+.linha2-CD {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#img-comida1-CD  {
+    background-image: url(../img/banner/Banner-C-D1.JPEG);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+#img-comida2-CD  {
+    background-image: url(../img/banner/Banner-C-D2.JPEG);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+#img-comida3-CD  {
+    background-image: url(../img/banner/Banner-C-D3.JPEG);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+#img-comida4-CD  {
+    background-image: url(../img/banner/Banner-C-D4.JPEG);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.titulo-topo1-CD {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  z-index: 1;
+  color: rgb(175, 5, 5);
+  font-size: 34px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.370);
+  border-radius: 8px;
+}
+ .titulo-topo2-CD {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color: #008a9ce4;
+   background-color: rgba(0, 0, 0, 0.380);
+    border-radius: 8px;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.titulo-topo3-CD {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color: rgba(186, 186, 0, 0.991);
+  font-size: 34px;
+  font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.380);
+    border-radius: 8px;
+}
+
+.titulo-topo4-CD {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color:  #cf7f00;
+  font-size: 34px;
+  font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.350);
+    border-radius: 8px;
+}
+
+
+
+        /*PRATOS CASEIRO (CARDÁPIO)
+        
+                FINAL
+        */
+
+
+
+
+    /*CARDÁPIO PÁGINA PRINCINPAL(CARDÁPIO)
+        
+           FINAL
+    */
+
+  
+footer {
+    background-color: rgb(222, 101, 14);
+}
+
+#f-p1-c {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 24, 4);
+    font-size: 20px;padding: 2px;
+    margin: 0px;
+}
+
+#f-p2-c {
+     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 24, 4) ;
+    font-size: 20px;padding: 2px;
+    margin: 0px;
+}
+
+.logo-f-c {
+    margin: 5px;
+    height: 38px;
+}
+
+.a-f-c {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 2px;
+    margin: 8px;
+    
+}
+
+.a-f-c:hover {
+    background-color: rgba(181, 178, 172, 0);
+ width: 100%;
+    height: 98vh;
+
+    background-image: url(../img/banner/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}    

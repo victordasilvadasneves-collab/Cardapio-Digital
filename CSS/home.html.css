@@ -1,0 +1,441 @@
+@charset "UTF-8";
+
+  /*CARDÁPIO TELA PRINCINPAL(HOME)
+        
+            ÍNICIO
+  */
+
+body {
+   background-image: url(../img/banner/banner.jpg);
+}
+
+.categorias {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+
+#car_p {
+    text-align: center;
+
+    margin-left: 40px;
+    padding: 18px;
+
+    color: rgb(125, 50, 0);
+    background-color: rgb(194, 163, 70);
+
+    border: 1px solid  rgb(194, 163, 70) ;
+    border-radius: 50px;
+    
+    flex-basis: 100%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+
+    height: 35px;
+    width: 250px;
+    
+}
+
+#list-ca {
+    border: 2px solid rgba(192, 192, 192, 0.815);
+    box-shadow: 6px 5px 10px rgba(0, 0, 0, 0.81);
+    border-radius: 20px 18px 0px 15px;
+    background-color: rgb(203, 171, 74);
+    box-sizing: border-box;
+
+    
+    margin: 8px;
+    padding: 20px;
+
+   
+    display:flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.lista-categorias {
+    margin: 0px;
+    width: 420px;
+    height: 500px;
+}
+
+
+.categoria {
+
+    margin: 5px;
+    padding: 10px;
+    height: 60px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+
+    flex: 1 1 calc(50% - 15px);
+    
+    box-sizing: border-box;
+    box-shadow: 7px 8px 10px rgba(125, 3, 3, 0.200);
+    border: 1px solid rgba(255, 255, 255, 0.171);
+    border-radius: 50px;
+    color: rgb(255, 94, 0);
+
+    background-color: rgba(255, 255, 255, 0.523);
+
+}
+
+.Cardá {
+      text-decoration: none;
+}
+
+.categ {
+    text-decoration: none;
+    color: rgb(255, 72, 0);
+    padding: 0px;
+    
+}
+
+.categ:hover {
+    background-color: rgb(128, 40, 2);
+    height: 70px;
+    border-radius: 50px;
+}   /*CARDÁPIO TELA PRINCINPAL(HOME)
+        
+                FINAL
+  */
+
+
+
+/*PROMOÇÃO DO DIA TELA PRINCINPAL(HOME)
+        
+            ÍNICIO
+  */
+
+.promoção-do-dia {
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+
+    height: 45vh;
+    width: 280px;
+    margin-left: 730px;
+    border: 18px solid black;
+    box-shadow: 10px 8px 13px rgba(0, 0, 0, 0.523);
+    
+    
+}
+
+#promoção-banner {
+    
+    display: inline-flex;
+}
+
+#promoção-banner {
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+
+    width: 280px;
+    height: 330px;
+    padding: 0px;
+
+}
+.img-banner {
+  position: relative;
+  bottom: 318px;   /* muda pra top/center se quiser */
+  left: 9%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: #ff4501;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 19px;
+  font-weight: bold;
+  
+}
+
+#a-b {
+  text-decoration: none;
+}
+
+/*PROMOÇÃO DO DIA TELA PRINCINPAL(HOME)
+        
+            FINAL
+  */
+
+                /*DESTAQUES TELA PRINCINPAL(HOME)
+        
+                             ÍNICIO
+                 */
+
+  /*
+  !!!!!! COMEÇAR DESTAQUES E DEPOIS INFOR !!!!!!
+  */
+
+.linha {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 50% / 50% */
+}
+
+
+.destaques,
+.informacao {
+  width: 100%;
+ display: inline-block;
+}
+
+.destaques {
+     background-color: rgb(43, 20, 4);
+    text-align: center;
+
+    color: #fffefc;
+    font-size: 20px;
+
+    padding-bottom: 12px;
+    padding-left: 2px;
+    
+}
+
+.dest img {
+    width: 50%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dest {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    
+}
+
+#a-d {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+  position: relative;
+  width: 48%; /* 2 por linha */
+  height: 290px;
+  border-radius: 12px;
+  overflow: hidden;
+  
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+/* fundo escuro pra leitura */
+.card::after {
+  content: "";
+  position: absolute;
+  background: rgba(2, 2, 2, 0.45);
+}
+
+/* texto */
+.texto {
+  position: relative;
+  top: 264px;
+  bottom: 1px;
+  z-index: 1;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.335);
+
+}
+
+.linha1 {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 1;
+  
+}
+.linha2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#img-comida1  {
+    background-image: url(../img/banner/banner-comida-caseira.jpeg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+#img-comida2  {
+    background-image: url(../img/banner/banner-sobremasa1.jpeg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+#img-comida3  {
+    background-image: url(../img/banner/banner-porção.jpeg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+#img-comida4  {
+    background-image: url(../img/banner/banner-Lançamento.jpeg);
+     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.titulo-topo1 {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  z-index: 1;
+  color: rgb(175, 5, 5);
+  font-size: 34px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0.370);
+  border-radius: 8px;
+}
+
+.titulo-topo2 {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color: #0f5d67d4;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.titulo-topo3 {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color: rgba(186, 186, 0, 0.991);
+  font-size: 34px;
+  font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.380);
+    border-radius: 8px;
+}
+
+.titulo-topo4 {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  z-index: 1;
+  color:  #cf7f00;
+  font-size: 34px;
+  font-weight: 600;
+   background-color: rgba(0, 0, 0, 0.350);
+    border-radius: 8px;
+}
+
+
+/*DESTAQUES TELA PRINCINPAL(HOME)
+        
+            FINAL
+  */
+
+
+
+/*INFORMAÇÃO TELA PRINCINPAL(HOME)
+        
+            ÍNICIO
+  */
+
+  .informacao {
+    background-color: rgb(128, 0, 0);
+    text-align: center;
+
+    color: #ffffff; 
+    font-size: 20px;
+
+    padding-bottom: 12px;
+    margin-left: 2px;
+
+ 
+
+  }
+
+  .info {
+    background-color: rgb(255, 255, 255);
+    border: solid #000000;
+    border-radius: 30px 0px 30px ;
+    box-shadow: 8px 5px 10px rgba(0, 0, 0, 0.615);
+   
+    
+    margin: 14px;
+    margin-left: 175px;
+    padding: 8px;
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    
+
+    color: #000000;
+
+    height: 560px;
+    width: 470px;
+  }
+
+  /*INFORMAÇÃO TELA PRINCINPAL(HOME)
+        
+            FINAL
+  */
+
+
+
+  
+footer {
+    background-color: rgb(222, 101, 14);
+}
+
+#f-p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 24, 4);
+    font-size: 20px;padding: 2px;
+    margin: 0px;
+}
+
+#f-p2 {
+     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(51, 24, 4) ;
+    font-size: 20px;padding: 2px;
+    margin: 0px;
+}
+
+.logo-f {
+    margin: 5px;
+    height: 38px;
+}
+
+.a-f {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 2px;
+    margin: 8px;
+    
+}
+
+.a-f:hover {
+    background-color: rgba(181, 178, 172, 0);
+ width: 100%;
+    height: 98vh;
+
+    background-image: url(../img/banner/banner.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
